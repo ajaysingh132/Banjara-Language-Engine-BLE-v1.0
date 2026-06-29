@@ -1,0 +1,71 @@
+[
+  {
+    "id": 1,
+    "title": "बंजारा गीतामृत",
+    "author": "GBSBFORYOU",
+    "category": "धार्मिक एवं सांस्कृतिक",
+    "language": "बंजारा",
+    "description": "बंजारा समाज का सांस्कृतिक एवं आध्यात्मिक ग्रंथ।",
+    "cover": "images/geetamrit.jpg",
+    "file": "books/geetamrit.html",
+    "pdf": "books/geetamrit.pdf",
+    "pages": 186,
+    "status": "Available"
+  },
+
+  {
+    "id": 2,
+    "title": "वाचकरणी (बंजारा व्याकरण)",
+    "author": "GBSBFORYOU",
+    "category": "व्याकरण",
+    "language": "बंजारा",
+    "description": "बंजारा भाषा सीखने की आधिकारिक व्याकरण पुस्तक।",
+    "cover": "images/vachkarani.jpg",
+    "file": "books/vachkarani.html",
+    "pdf": "books/vachkarani.pdf",
+    "pages": 220,
+    "status": "Available"
+  },
+
+  {
+    "id": 3,
+    "title": "NST प्रस्ताव",
+    "author": "GBSBFORYOU",
+    "category": "दस्तावेज़",
+    "language": "बंजारा",
+    "description": "Nomadic Scheduled Tribe (NST) प्रस्ताव।",
+    "cover": "images/nst.jpg",
+    "file": "books/nst.html",
+    "pdf": "books/nst.pdf",
+    "pages": 80,
+    "status": "Available"
+  },
+
+  {
+    "id": 4,
+    "title": "बंजारा शब्दकोश",
+    "author": "BLE Team",
+    "category": "Dictionary",
+    "language": "बंजारा",
+    "description": "डिजिटल बंजारा शब्दकोश।",
+    "cover": "images/dictionary.jpg",
+    "file": "dictionary.html",
+    "pdf": "",
+    "pages": 0,
+    "status": "Under Development"
+  },
+
+  {
+    "id": 5,
+    "title": "लोकगीत संग्रह",
+    "author": "BLE Team",
+    "category": "लोक साहित्य",
+    "language": "बंजारा",
+    "description": "बंजारा लोकगीतों का डिजिटल संग्रह।",
+    "cover": "images/loksong.jpg",
+    "file": "books/loksong.html",
+    "pdf": "",
+    "pages": 0,
+    "status": "Coming Soon"
+  }
+    ]
