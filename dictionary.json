@@ -1,1 +1,13 @@
-
+{
+  "नमस्ते": {
+    "banjara": "राम राम",
+    "english": "Hello",
+    "sanskrit": "नमस्ते",
+    "source": "बंजारा गीतामृत"
+  },
+  "पानी": {
+    "banjara": "पाणी",
+    "english": "Water",
+    "source": "बंजारा गीतामृत"
+  }
+}
