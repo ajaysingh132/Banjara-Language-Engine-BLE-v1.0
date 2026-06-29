@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Language Engine | BLE</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🌐 Language Engine</h1>
+
+<p>Banjara Language Engine v1.0</p>
+
+</header>
+
+<section class="translator">
+
+<h2>बंजारा भाषा अनुवादक</h2>
+
+<p>
+
+हिन्दी ⇄ बंजारा
+
+</p>
+
+<label>भाषा चुनें</label>
+
+<select id="language">
+
+<option>हिन्दी → बंजारा</option>
+
+<option>बंजारा → हिन्दी</option>
+
+<option>English → Banjara</option>
+
+<option>Banjara → English</option>
+
+<option>संस्कृत → बंजारा</option>
+
+<option>बंजारा → संस्कृत</option>
+
+</select>
+
+<br><br>
+
+<label>इनपुट</label>
+
+<textarea
+
+id="input"
+
+rows="8"
+
+placeholder="यहाँ लिखें..."
+
+></textarea>
+
+<br><br>
+
+<button onclick="translateText()">
+
+🌐 अनुवाद करें
+
+</button>
+
+<button onclick="clearText()">
+
+🗑 साफ करें
+
+</button>
+
+<br><br>
+
+<label>आउटपुट</label>
+
+<textarea
+
+id="output"
+
+rows="8"
+
+readonly
+
+placeholder="अनुवाद यहाँ दिखाई देगा..."
+
+></textarea>
+
+</section>
+
+<section>
+
+<h2>📖 सुझाव</h2>
+
+<ul>
+
+<li>आज का शब्द</li>
+
+<li>लोकप्रिय वाक्य</li>
+
+<li>हाल ही में खोजे गए शब्द</li>
+
+</ul>
+
+</section>
+
+<footer>
+
+<p>
+
+🌿 आपणी गोर बोली – आपणी पहचान
+
+</p>
+
+<p>
+
+Powered by GBSBFORYOU
+
+</p>
+
+</footer>
+
+<script src="app.js"></script>
+
+</body>
+  </html>
