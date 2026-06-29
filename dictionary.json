@@ -11,3 +11,115 @@
     "source": "बंजारा गीतामृत"
   }
 }
+[
+  {
+    "id": 1,
+    "hindi": "नमस्ते",
+    "banjara": "राम राम",
+    "english": "Hello",
+    "sanskrit": "नमस्ते",
+    "category": "अभिवादन",
+    "source": "बंजारा गीतामृत",
+    "author": "श्री कृष्णा चव्हाण नायक",
+    "verified": true
+  },
+  {
+    "id": 2,
+    "hindi": "पानी",
+    "banjara": "पाणी",
+    "english": "Water",
+    "sanskrit": "जल",
+    "category": "प्रकृति",
+    "source": "बंजारा गीतामृत",
+    "author": "श्री कृष्णा चव्हाण नायक",
+    "verified": true
+  },
+  {
+    "id": 3,
+    "hindi": "घर",
+    "banjara": "घर",
+    "english": "House",
+    "sanskrit": "गृह",
+    "category": "स्थान",
+    "source": "बंजारा गीतामृत",
+    "author": "श्री कृष्णा चव्हाण नायक",
+    "verified": true
+  },
+  {
+    "id": 4,
+    "hindi": "माता",
+    "banjara": "याड़ी",
+    "english": "Mother",
+    "sanskrit": "माता",
+    "category": "परिवार",
+    "source": "बंजारा गीतामृत",
+    "author": "श्री कृष्णा चव्हाण नायक",
+    "verified": true
+  },
+  {
+    "id": 5,
+    "hindi": "पिता",
+    "banjara": "बा",
+    "english": "Father",
+    "sanskrit": "पिता",
+    "category": "परिवार",
+    "source": "बंजारा गीतामृत",
+    "author": "श्री कृष्णा चव्हाण नायक",
+    "verified": true
+  },
+  {
+    "id": 6,
+    "hindi": "भाई",
+    "banjara": "",
+    "english": "Brother",
+    "sanskrit": "भ्राता",
+    "category": "परिवार",
+    "source": "निर्माणाधीन",
+    "author": "BLE Expert Council",
+    "verified": false
+  },
+  {
+    "id": 7,
+    "hindi": "बहन",
+    "banjara": "",
+    "english": "Sister",
+    "sanskrit": "भगिनी",
+    "category": "परिवार",
+    "source": "निर्माणाधीन",
+    "author": "BLE Expert Council",
+    "verified": false
+  },
+  {
+    "id": 8,
+    "hindi": "सूरज",
+    "banjara": "",
+    "english": "Sun",
+    "sanskrit": "सूर्य",
+    "category": "प्रकृति",
+    "source": "निर्माणाधीन",
+    "author": "BLE Expert Council",
+    "verified": false
+  },
+  {
+    "id": 9,
+    "hindi": "चाँद",
+    "banjara": "",
+    "english": "Moon",
+    "sanskrit": "चन्द्र",
+    "category": "प्रकृति",
+    "source": "निर्माणाधीन",
+    "author": "BLE Expert Council",
+    "verified": false
+  },
+  {
+    "id": 10,
+    "hindi": "पुस्तक",
+    "banjara": "",
+    "english": "Book",
+    "sanskrit": "पुस्तक",
+    "category": "शिक्षा",
+    "source": "निर्माणाधीन",
+    "author": "BLE Expert Council",
+    "verified": false
+  }
+    ]
