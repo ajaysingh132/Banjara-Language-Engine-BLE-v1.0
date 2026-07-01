@@ -7,3 +7,27 @@ research/
 ├── interviews/
 ├── publications/
 └── evidence/
+Banjara-Language-Engine-BLE-v1.0/
+│
+├── index.html
+├── dictionary.html
+├── books.html
+├── library.html
+├── ...
+│
+├── research/          ← नया जोड़ें
+│   ├── README.md
+│   ├── index.html
+│   ├── tanda-network/
+│   ├── oral-history/
+│   ├── historical-documents/
+│   ├── maps/
+│   ├── interviews/
+│   ├── publications/
+│   ├── evidence/
+│   └── references/
+│
+├── books/
+├── dictionary/
+├── grammar/
+└── culture/
