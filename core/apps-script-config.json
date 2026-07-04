@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+
+  "project": "BLE",
+
+  "google": {
+    "spreadsheetId": "",
+    "sheetName": "BLE Members",
+    "formId": "",
+    "appsScriptDeploymentId": "",
+    "webAppUrl": ""
+  },
+
+  "sync": {
+    "read": true,
+    "write": true,
+    "autoRefresh": true,
+    "refreshInterval": 300
+  },
+
+  "security": {
+    "authentication": true,
+    "verificationRequired": true,
+    "logActivity": true
+  }
+}
