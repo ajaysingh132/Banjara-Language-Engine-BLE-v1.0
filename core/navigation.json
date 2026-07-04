@@ -1,0 +1,111 @@
+{
+  "version": "1.0",
+
+  "navigation": [
+
+    {
+      "id": "home",
+      "title": "Home",
+      "icon": "🏠",
+      "url": "index.html",
+      "enabled": true
+    },
+
+    {
+      "id": "registration",
+      "title": "Community Registration",
+      "icon": "📝",
+      "url": "app/community-registration.html",
+      "enabled": true
+    },
+
+    {
+      "id": "dictionary",
+      "title": "Dictionary",
+      "icon": "📖",
+      "url": "dictionary.html",
+      "enabled": true
+    },
+
+    {
+      "id": "library",
+      "title": "Digital Library",
+      "icon": "📚",
+      "url": "library.html",
+      "enabled": true
+    },
+
+    {
+      "id": "research",
+      "title": "Research",
+      "icon": "🔬",
+      "url": "research/index.html",
+      "enabled": true
+    },
+
+    {
+      "id": "community",
+      "title": "Community",
+      "icon": "👥",
+      "url": "community.html",
+      "enabled": true
+    },
+
+    {
+      "id": "cooperative",
+      "title": "Cooperative",
+      "icon": "🤝",
+      "url": "cooperative.html",
+      "enabled": true
+    },
+
+    {
+      "id": "parliament",
+      "title": "Digital Parliament",
+      "icon": "🏛️",
+      "url": "parliament.html",
+      "enabled": true
+    },
+
+    {
+      "id": "meetings",
+      "title": "Meetings",
+      "icon": "🎤",
+      "url": "meetings.html",
+      "enabled": true
+    },
+
+    {
+      "id": "sources",
+      "title": "Knowledge Sources",
+      "icon": "📑",
+      "url": "sources.html",
+      "enabled": true
+    },
+
+    {
+      "id": "contacts",
+      "title": "Contact Directory",
+      "icon": "📇",
+      "url": "contacts.html",
+      "enabled": true
+    },
+
+    {
+      "id": "volunteers",
+      "title": "Volunteers",
+      "icon": "🙋",
+      "url": "volunteers.html",
+      "enabled": true
+    },
+
+    {
+      "id": "admin",
+      "title": "Admin Panel",
+      "icon": "⚙️",
+      "url": "admin/index.html",
+      "enabled": true
+    }
+
+  ]
+}
