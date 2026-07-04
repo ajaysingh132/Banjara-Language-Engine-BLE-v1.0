@@ -1,0 +1,100 @@
+{
+  "version": "1.0",
+
+  "modules": {
+
+    "languageEngine": {
+      "enabled": true,
+      "name": "Banjara Language Engine"
+    },
+
+    "dictionary": {
+      "enabled": true
+    },
+
+    "digitalLibrary": {
+      "enabled": true
+    },
+
+    "communityRegistration": {
+      "enabled": true
+    },
+
+    "communityDatabase": {
+      "enabled": true
+    },
+
+    "casteDatabase": {
+      "enabled": true
+    },
+
+    "gotraDatabase": {
+      "enabled": true
+    },
+
+    "sourceRegistry": {
+      "enabled": true
+    },
+
+    "contactDirectory": {
+      "enabled": true
+    },
+
+    "researchCenter": {
+      "enabled": true
+    },
+
+    "knowledgeBase": {
+      "enabled": true
+    },
+
+    "volunteers": {
+      "enabled": true
+    },
+
+    "experts": {
+      "enabled": true
+    },
+
+    "googleForms": {
+      "enabled": false
+    },
+
+    "googleSheets": {
+      "enabled": false
+    },
+
+    "audioMeeting": {
+      "enabled": false
+    },
+
+    "textMeeting": {
+      "enabled": false
+    },
+
+    "videoMeeting": {
+      "enabled": false
+    },
+
+    "digitalParliament": {
+      "enabled": true
+    },
+
+    "cooperativeSystem": {
+      "enabled": true
+    },
+
+    "aiAssistant": {
+      "enabled": true
+    },
+
+    "translationEngine": {
+      "enabled": true
+    },
+
+    "adminPanel": {
+      "enabled": true
+    }
+
+  }
+}
