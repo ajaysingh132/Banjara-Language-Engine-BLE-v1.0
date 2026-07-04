@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+
+  "googleSheets": {
+    "enabled": false,
+
+    "spreadsheetId": "",
+
+    "sheetName": "BLE Members",
+
+    "apiKey": "",
+
+    "appsScriptUrl": "",
+
+    "autoSync": true,
+
+    "syncInterval": 300
+  },
+
+  "forms": {
+    "enabled": false,
+
+    "formId": "",
+
+    "formUrl": ""
+  },
+
+  "security": {
+    "allowRead": true,
+
+    "allowWrite": false,
+
+    "requireVerification": true
+  }
+}
