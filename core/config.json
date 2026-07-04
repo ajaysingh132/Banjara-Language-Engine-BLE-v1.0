@@ -1,0 +1,45 @@
+{
+  "project": {
+    "name": "Banjara Language Engine",
+    "shortName": "BLE",
+    "version": "1.0.0",
+    "status": "Development"
+  },
+
+  "organisation": {
+    "name": "GBSBFORYOU",
+    "country": "India",
+    "mission": "Community Knowledge, Language, Culture and Cooperation"
+  },
+
+  "modules": {
+    "registration": true,
+    "dictionary": true,
+    "library": true,
+    "community": true,
+    "research": true,
+    "digitalParliament": true,
+    "cooperative": true,
+    "googleSheets": false,
+    "googleForms": false,
+    "audioMeeting": false,
+    "textMeeting": false
+  },
+
+  "database": {
+    "communityList": "data/community-list.json",
+    "casteList": "data/caste-list.json",
+    "gotraList": "data/gotra-list.json",
+    "contactDirectory": "data/contact-directory.json",
+    "sourceRegistry": "data/source-registry.json"
+  },
+
+  "language": {
+    "default": "Hindi",
+    "supported": [
+      "Hindi",
+      "English",
+      "Banjara"
+    ]
+  }
+}
