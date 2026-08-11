@@ -2,275 +2,87 @@
 <html lang="hi">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Banjara Language Engine (BLE)</title>
-
-<meta name="description"
-content="Banjara Language Engine - आपणी गोर बोली, आपणी पहचान">
-
-<link rel="stylesheet" href="style.css">
-
-<link rel="manifest" href="manifest.json">
-
-<link rel="icon" href="logo.png">
-
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BLE v1.1 — Gor Boli Voice</title>
+<style>
+body{font-family:system-ui,sans-serif;margin:0;background:#f5f7f4;color:#17351f}
+header{padding:22px 16px;background:#1f5d38;color:white}
+main{max-width:760px;margin:auto;padding:16px}
+.card{background:white;border-radius:16px;padding:16px;margin:14px 0;box-shadow:0 2px 10px #0001}
+textarea,input,select,button{width:100%;box-sizing:border-box;padding:12px;border-radius:10px;border:1px solid #ccd6ce;margin-top:8px}
+button{background:#1f5d38;color:white;border:0;font-weight:700}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.result{padding:12px;border-top:1px solid #eee}
+small{color:#65736a}
+.badge{display:inline-block;padding:4px 8px;border-radius:999px;background:#e6f2e9;font-size:12px}
+</style>
 </head>
-
 <body>
-
-<header>
-
-<div class="logo">
-
-<h1>🌿 BLE</h1>
-
-<h2>आपणी गोर बोली – आपणी पहचान</h2>
-
-<p>Banjara Language Engine v1.0 Alpha</p>
-
+<header><h1>🌿 BLE v1.1</h1><div>आपणी गोर बोली — आपणी पहचान</div><small style="color:#dbeadf">Gor Boli Language + Voice Integration</small></header>
+<main>
+<section class="card">
+<h2>🔊 गोर बोली में बोलें</h2>
+<textarea id="text" rows="5" placeholder="यहाँ गोर बोली का वाक्य लिखें..."></textarea>
+<div class="row">
+<select id="voiceMode"><option value="api">GBSB Your Voice</option><option value="browser">Browser Preview</option></select>
+<button onclick="speak()">🔊 बोलें</button>
 </div>
-
-</header>
-
-<!-- HERO -->
-
-<section class="hero">
-
-<h1>
-Welcome to Banjara Language Engine
-</h1>
-
-<p>
-
-Banjara Language Engine केवल एक सॉफ्टवेयर नहीं है।
-
-यह बंजारा भाषा, साहित्य, संस्कृति और ज्ञान को सुरक्षित रखने तथा भविष्य की पीढ़ियों तक पहुँचाने का सामुदायिक डिजिटल मिशन है।
-
-</p>
-
-<div class="hero-buttons">
-
-<button>🌐 Translate</button>
-
-<button>📚 Library</button>
-
-<button>👥 GOR Social</button>
-
-</div>
-
+<p id="status"><span class="badge">Voice API: integration-ready</span></p>
 </section>
 
-<!-- SEARCH -->
-
-<section class="search">
-
-<input
-type="search"
-placeholder="🔍 Search Words..."
->
-
+<section class="card">
+<h2>📖 गोर बोली शब्द खोजें</h2>
+<input id="search" placeholder="शब्द या हिंदी अर्थ..." oninput="searchWords()">
+<div id="results"><small>डेटा लोड हो रहा है...</small></div>
 </section>
 
-<!-- DASHBOARD -->
-
-<section class="dashboard">
-
-<div class="card">
-
-🌐
-
-<h3>Language Engine</h3>
-
-<p>Translate between languages</p>
-
-</div>
-
-<div class="card">
-
-📖
-
-<h3>Dictionary</h3>
-
-<p>Banjara Word Dictionary</p>
-
-</div>
-
-<div class="card">
-
-📚
-
-<h3>Digital Library</h3>
-
-<p>Books & Literature</p>
-
-</div>
-
-<div class="card">
-
-👥
-
-<h3>GOR Social</h3>
-
-<p>Community Platform</p>
-
-</div>
-
-<div class="card">
-
-🎓
-
-<h3>Learn GOR</h3>
-
-<p>Language Learning</p>
-
-</div>
-
-<div class="card">
-
-👨‍🏫
-
-<h3>Expert Council</h3>
-
-<p>Language Experts</p>
-
-</div>
-
+<section class="card">
+<h3>BLE Architecture</h3>
+<p>Language Brain → Pronunciation Layer → Your Voice → Audio</p>
+<small>अप्रमाणित pronunciation/audio को सिस्टम स्वतः नहीं गढ़ता।</small>
 </section>
-
-<!-- TODAY -->
-
-<section>
-
-<h2>📖 आज का शब्द</h2>
-
-<p>जल्द उपलब्ध होगा...</p>
-
-</section>
-
-<section>
-
-<h2>📝 आज का वाक्य</h2>
-
-<p>जल्द उपलब्ध होगा...</p>
-
-</section>
-
-<section>
-
-<h2>🎵 आज का लोकगीत</h2>
-
-<p>जल्द उपलब्ध होगा...</p>
-
-</section>
-
-<!-- BOOKS -->
-
-<section>
-
-<h2>📚 Featured Books</h2>
-
-<ul>
-
-<li>बंजारा गीतामृत</li>
-
-<li>वाचकरणी</li>
-
-</ul>
-
-</section>
-
-<!-- STATS -->
-
-<section>
-
-<h2>📊 Project Statistics</h2>
-
-<ul>
-
-<li>📚 Books : 2</li>
-
-<li>📖 Words : 0</li>
-
-<li>👥 Members : 0</li>
-
-<li>🎤 Audio : 0</li>
-
-<li>🎥 Video : 0</li>
-
-</ul>
-
-</section>
-
-<!-- VOLUNTEER -->
-
-<section>
-
-<h2>🤝 Join Mission</h2>
-
-<p>
-
-यदि आप भाषा विशेषज्ञ, लेखक, शोधकर्ता, विद्यार्थी या स्वयंसेवक हैं,
-
-तो इस मिशन से जुड़ें।
-
-</p>
-
-<button>
-
-➕ Become Volunteer
-
-</button>
-
-</section>
-
-<!-- FOOTER -->
-
-<footer>
-
-<p>
-
-🌿 आपणी गोर बोली – आपणी पहचान
-
-</p>
-
-<p>
-
-Banjara Language Engine (BLE)
-
-</p>
-
-<p>
-
-Powered by GBSBFORYOU
-
-</p>
-
-<p>
-
-Version 1.0 Alpha
-
-</p>
-
-</footer>
-
-<!-- Bottom Navigation -->
-
-<nav class="bottom-nav">
-
-<a href="#">🏠<br>Home</a>
-
-<a href="#">🌐<br>Translate</a>
-
-<a href="#">👥<br>Social</a>
-
-<a href="#">📚<br>Library</a>
-
-<a href="#">👤<br>Profile</a>
-
-</nav>
-
-<script src="app.js"></script>
-
+</main>
+<script>
+let records=[];
+async function loadData(){
+ try{
+  const r=await fetch("data/master_dictionary.json");
+  const j=await r.json(); records=j.records||[];
+  document.getElementById("results").innerHTML=`<small>${records.length} dictionary records loaded.</small>`;
+ }catch(e){document.getElementById("results").innerHTML="<small>Dictionary load नहीं हुआ।</small>";}
+}
+function searchWords(){
+ const q=document.getElementById("search").value.trim().toLowerCase();
+ if(!q){document.getElementById("results").innerHTML="<small>शब्द लिखें।</small>";return;}
+ const hits=records.filter(x=>[x.headword,x.meaning_hi,x.meaning_en,x.example].some(v=>String(v||"").toLowerCase().includes(q))).slice(0,20);
+ document.getElementById("results").innerHTML=hits.length?hits.map(x=>`
+ <div class="result"><b>${x.headword||"—"}</b><br>
+ <span>${x.meaning_hi||"—"}</span><br><small>${x.part_of_speech||""} · ${x.evidence_level||""}</small>
+ </div>`).join(""):"<small>कोई प्रमाणित entry नहीं मिली।</small>";
+}
+async function speak(){
+ const text=document.getElementById("text").value.trim();
+ const mode=document.getElementById("voiceMode").value;
+ if(!text){alert("पहले गोर बोली का पाठ लिखें।");return;}
+ if(mode==="browser"){
+   // Preview only. Browser voices are not a Gor Boli model.
+   const u=new SpeechSynthesisUtterance(text); u.lang="hi-IN"; speechSynthesis.speak(u);
+   document.getElementById("status").innerText="Browser preview चला। यह वास्तविक Gor Boli TTS model नहीं है।";
+   return;
+ }
+ document.getElementById("status").innerText="Your Voice API integration point तैयार है: /api/tts";
+ try{
+   const r=await fetch("/api/tts",{method:"POST",headers:{"Content-Type":"application/json"},
+     body:JSON.stringify({language:"gor",text,voice:"default"})});
+   if(!r.ok) throw new Error("API unavailable");
+   const blob=await r.blob(); const url=URL.createObjectURL(blob);
+   new Audio(url).play();
+   document.getElementById("status").innerText="GBSB Your Voice audio तैयार।";
+ }catch(e){
+   document.getElementById("status").innerText="Your Voice backend अभी connect नहीं है। Browser Preview चुनकर परीक्षण करें।";
+ }
+}
+loadData();
+</script>
 </body>
-    </html>
+</html>
